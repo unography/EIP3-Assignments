@@ -28,3 +28,10 @@ After training for **100 epochs**:
 
 Training for 200 epochs should improve the results and be able to re-produce the original results.
 
+## Failed Experiments
+
+Tried training CyclicGAN with an additional label constraint (whether the person in the image is wearing glasses or not). 
+Separate discriminators is added for this, and generator's input (the input image) is multiplied with an embedding of the label.
+Additional loss function - Mutual Info Loss is added.
+However, the generator isn't able to produce meaningful images after adding this additional constraint.
+The code for this is added in `Failed-Experiments`
