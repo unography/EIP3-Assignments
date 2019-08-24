@@ -22,9 +22,7 @@ After training for **100 epochs**:
 
 ![100_2](100_2.png)
 
-***Top Row***:         young -> old
-
-***Bottom Row***:  old -> young
+![100_3](100_3.png)
 
 Training for 200 epochs should improve the results and be able to re-produce the original results.
 
