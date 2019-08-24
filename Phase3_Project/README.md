@@ -14,7 +14,12 @@ Trained on total 2073 images.
 
 After training for **100 epochs**:
 
+***Top Row***:         young -> old
+***Bottom Row***:  old -> young
 
+![100_1](100_1.png)
+
+![100_2](100_2.png)
 
 Training for 200 epochs should improve the results and be able to re-produce the original results.
 
